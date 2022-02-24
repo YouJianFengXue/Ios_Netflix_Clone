@@ -16,6 +16,8 @@
 		36B9003627C67C8C0040EA5D /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9003527C67C8C0040EA5D /* UpcomingViewController.swift */; };
 		36B9003827C67CBE0040EA5D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9003727C67CBE0040EA5D /* SearchViewController.swift */; };
 		36B9003A27C67CE40040EA5D /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9003927C67CE40040EA5D /* DownloadViewController.swift */; };
+		36B9004127C68BF50040EA5D /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9004027C68BF50040EA5D /* CollectionViewTableViewCell.swift */; };
+		36B9004327C71D890040EA5D /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9004227C71D890040EA5D /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		36B9003527C67C8C0040EA5D /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		36B9003727C67CBE0040EA5D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		36B9003927C67CE40040EA5D /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		36B9004027C68BF50040EA5D /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		36B9004227C71D890040EA5D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,11 @@
 		36B9001D27C679DF0040EA5D /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				36B9003F27C68B960040EA5D /* Managers */,
+				36B9003E27C68B840040EA5D /* Resources */,
+				36B9003D27C68B5E0040EA5D /* Models */,
+				36B9003B27C68B350040EA5D /* Views */,
+				36B9003C27C68B4C0040EA5D /* ViewModels */,
 				36B9003227C67C0D0040EA5D /* Controllers */,
 				36B9001E27C679DF0040EA5D /* AppDelegate.swift */,
 				36B9002027C679DF0040EA5D /* SceneDelegate.swift */,
@@ -82,6 +91,43 @@
 				36B9003927C67CE40040EA5D /* DownloadViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36B9003B27C68B350040EA5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36B9004027C68BF50040EA5D /* CollectionViewTableViewCell.swift */,
+				36B9004227C71D890040EA5D /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36B9003C27C68B4C0040EA5D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		36B9003D27C68B5E0040EA5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36B9003E27C68B840040EA5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36B9003F27C68B960040EA5D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +202,8 @@
 			files = (
 				36B9003827C67CBE0040EA5D /* SearchViewController.swift in Sources */,
 				36B9002327C679DF0040EA5D /* MainTabBarViewController.swift in Sources */,
+				36B9004127C68BF50040EA5D /* CollectionViewTableViewCell.swift in Sources */,
+				36B9004327C71D890040EA5D /* HeroHeaderUIView.swift in Sources */,
 				36B9001F27C679DF0040EA5D /* AppDelegate.swift in Sources */,
 				36B9003A27C67CE40040EA5D /* DownloadViewController.swift in Sources */,
 				36B9002127C679DF0040EA5D /* SceneDelegate.swift in Sources */,
